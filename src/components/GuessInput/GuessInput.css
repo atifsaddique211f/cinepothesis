@@ -1,0 +1,34 @@
+.GuessInput {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.GuessInput input {
+  width: 100%;
+  display: block;
+  padding: 15px 0;
+  font-size: 20px;
+  text-align: center;
+}
+
+.GuessInput button {
+  margin: 20px auto;
+  background-color: red;
+  color: white;
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+.GuessInputButtons {
+  width: 300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.GuessInputButtons .skip {
+  background-color: gray;
+}

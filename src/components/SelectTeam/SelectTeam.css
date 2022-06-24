@@ -1,0 +1,35 @@
+.select-teams-page {
+  padding: 20px;
+}
+
+.teams-section {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.teams-section-divider {
+  height: auto;
+  width: 2px;
+  background-color: white;
+}
+
+.teams-section .team {
+  width: calc(50% - 22px);
+  padding-left: 20px;
+}
+
+.user-list {
+  padding: 20px 20px 20px 0;
+}
+
+.user-item {
+  padding: 15px 15px;
+  margin: 3px;
+  border-radius: 6px;
+  background: #322121;
+}
+
+.bottom-section {
+  padding-top: 20px;
+}

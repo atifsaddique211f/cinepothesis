@@ -1,0 +1,51 @@
+* {
+  font-family: sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  background-color: #252525;
+}
+
+body {
+  background-color: #252525;
+  color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 6px;
+}
+
+.Button {
+  background: #ff0000;
+  border-radius: 64px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 16px 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}

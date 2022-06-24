@@ -1,0 +1,61 @@
+.Home {
+  height: 100%;
+  display: flex;
+}
+
+.Home .Content {
+  min-height: 350px;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.Home .Title {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.Home .ColumnWrapper {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.Home img {
+  max-width: 75%;
+  min-width: 200px;
+}
+
+.Home p {
+  font-size: 20px;
+}
+
+.Home .Form {
+  width: 200px;
+}
+
+.Home input {
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  border-bottom: solid 1px #aaa;
+  font-size: 16px;
+  margin-bottom: 16px;
+  width: 100%;
+  color: #fff;
+}
+
+.Home input::placeholder {
+  color: #aaa;
+}
+
+.Home .Form .Button {
+  width: 100%;
+}
