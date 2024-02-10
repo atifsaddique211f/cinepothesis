@@ -1,2 +1,2 @@
-# cinepothesis
-Created with CodeSandbox
+# CinePothesis
+Movie Guessing Game
